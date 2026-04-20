@@ -1,0 +1,24 @@
+# Raw data — too large for GitHub, reproducible by re-running notebooks
+data/online_retail_II.xlsx
+data/sales_clean.csv
+data/cancellations.csv
+data/retail.db
+data/rfm_segments.csv
+data/tableau_exports/sales_for_tableau.csv
+
+# Tableau workbook files
+dashboard/*.twb
+dashboard/*.twbx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
