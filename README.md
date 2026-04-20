@@ -4,7 +4,7 @@
 
 ![Dashboard](Dashboard.png)
 
-**🔗 [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/edison.khuong/viz/OnlineRetailIIBusinessInsightsDashboard/OnlineRetailIIBusinessInsightsDashboard)**
+**[Interactive Tableau Dashboard](https://public.tableau.com/app/profile/edison.khuong/viz/OnlineRetailIIBusinessInsightsDashboard/OnlineRetailIIBusinessInsightsDashboard)**
 
 ---
 
