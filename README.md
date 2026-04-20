@@ -2,7 +2,7 @@
 
 **An end-to-end data analysis of 1M+ transactions from a UK-based online retailer, demonstrating data cleaning, SQL analysis, and interactive visualization.**
 
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 **🔗 [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/edison.khuong/viz/OnlineRetailIIBusinessInsightsDashboard/OnlineRetailIIBusinessInsightsDashboard)**
 
