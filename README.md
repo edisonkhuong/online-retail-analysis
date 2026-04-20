@@ -20,13 +20,40 @@ The work answers five business questions a retail analyst would actually ask:
 4. **Geographic reach** — Which markets matter, and which are untapped?
 5. **Cancellation behavior** — What gets returned, and when?
 
-## Key Findings
+## Business Questions & Findings
 
-- **Strong November seasonality.** November drives roughly 2x a typical month in both years — the retailer's business is heavily concentrated around the Christmas gift-buying window.
-- **Classic Pareto distribution in products.** Roughly the top 20% of SKUs account for 80% of revenue, with clear implications for inventory prioritization.
-- **RFM segmentation reveals a churn problem.** The "Lost" segment (customers who haven't purchased recently) is the largest by count, pointing toward a retention opportunity rather than a customer-acquisition gap.
-- **UK dominates (~85% of revenue)** but several European markets — notably the Netherlands, EIRE, and Germany — show meaningfully high order values, suggesting wholesale or bulk-buyer opportunities.
-- **Peak shopping window is Tuesday–Thursday, 10am–3pm.** Saturday activity is negligible (likely operational closure), a finding with direct implications for email send timing and promotional campaigns.
+### 1. How does revenue evolve over time? Is there seasonality?
+
+Revenue is heavily concentrated around the Christmas gift-buying season, with **November driving roughly 2x a typical month** in both 2010 and 2011. December and January are the weakest months.
+
+→ **Recommendation:** Inventory planning, ad spend, and hiring should be tuned to a November peak. Suppliers should be secured by September. Any system outage in November would be disproportionately costly.
+
+### 2. Who are our best customers — and who's at risk?
+
+Applying RFM (Recency-Frequency-Monetary) segmentation across 5,852 known customers revealed:
+- **VIPs** (~22% of customers) drive a disproportionate share of revenue
+- **"Lost"** is the largest segment by count — customers who used to buy but haven't recently
+- **"At Risk"** customers still rank high on Frequency/Monetary but haven't purchased recently
+
+→ **Recommendation:** Launch a retention campaign targeted at the "At Risk" segment. These are customers with proven purchase history who are currently disengaged — far higher ROI than acquiring new customers. A lightweight re-engagement email (15% off, free shipping) could recover meaningful revenue.
+
+### 3. Which products drive revenue? Is there a Pareto pattern?
+
+Yes, and strongly. **Roughly the top 20% of SKUs (~980 products) account for 80% of revenue.** The revenue curve is steep at the top and flat at the tail.
+
+→ **Recommendation:** Focus inventory, marketing, and merchandising resources on the top revenue SKUs. Periodically audit the bottom 50% of SKUs (which together contribute <5% of revenue) for discontinuation, as they likely carry storage and complexity costs that exceed their contribution.
+
+### 4. Which markets matter, and which are untapped?
+
+The UK dominates at ~85% of revenue. Among non-UK markets, **Netherlands, EIRE, and Germany** have notably high average order values — suggestive of wholesale or bulk-buyer customers rather than retail end-consumers.
+
+→ **Recommendation:** Investigate the identity of high-AOV buyers in these three countries. If they're confirmed wholesale/trade buyers, the retailer should consider a dedicated B2B channel with volume pricing, which typically improves margins and customer lifetime value compared to treating these buyers through the retail flow.
+
+### 5. When do customers buy, and what gets cancelled?
+
+Orders concentrate in **weekday business hours (Tuesday–Thursday, 10am–3pm)**. Saturday activity is negligible — likely operational closure. The overall cancellation rate hovers around 2–3% monthly, with specific high-value products (Paper Craft Little Birdie, Medium Ceramic Top Storage Jar) driving disproportionate cancellation value from single large orders that fell through.
+
+→ **Recommendation:** Promotional emails should be sent Monday afternoon or early Tuesday morning to catch the Tuesday–Thursday peak. Saturday closure should be reviewed — either accept the gap as a cost-of-operations choice or investigate enabling Saturday order processing to capture an additional day of potential revenue. The top cancellation products warrant investigation: are they quality issues, shipping issues, or single-customer wholesale failures?
 
 ## Stack
 
